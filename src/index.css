@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services,.project, .skills, .teams, .contact, footer{
+.about, .services,.project, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -306,7 +306,8 @@ section .title::after{
 }
 
 /* project section styling */
-.project, .teams{
+
+.project{
     color:#fff;
     background: #111;
 }
@@ -314,7 +315,11 @@ section .title::after{
 .teams .title::before{
     background: rgb(255, 0, 0);
 }
-
+.project .serv-content{
+      gap: 30px;
+      
+justify-content:flex-start;
+}
 .project .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -323,6 +328,9 @@ section .title::after{
     padding: 35px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+  
+
+    
 }
 .project .serv-content .card:hover{
     background: crimson;
@@ -402,6 +410,7 @@ section .title::after{
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
+    
 }
 .contact .contact-content .row{
     display: flex;

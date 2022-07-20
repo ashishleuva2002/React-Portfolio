@@ -1,7 +1,7 @@
 import React from 'react'
 
 const contact = () => {
-    const con=[{i:"fas fa-user",name:"Name",nam:"Ashish Leuva"},{i:"fas fa-map-marker-alt",name:"Address",nam:"Kalol, Gujarat"},{i:"Email",name:"fas fa-envelope",nam:"ashisleuva2002@gmail.com"}]
+    const con=[{i:"fas fa-user",name:"Name",nam:"Ashish Leuva"},{i:"fas fa-map-marker-alt",name:"Address",nam:"Kalol, Gujarat"},{i:"fas fa-envelope",name:"Email",nam:"ashisleuva2002@gmail.com"}]
     return (
     <>
       <section className="contact" id="contact">
