@@ -13,7 +13,7 @@ const home = () => {
                     <div className="text-1">Hello, my name is</div>
                     <div className="text-2">Ashish Leuva</div>
                     
-                    <div class="text-3">And I'm a ,
+                    <div class="text-3">And I'm a ,Student
                     </div>
                        
                     <a href="#contact">Hire me</a>

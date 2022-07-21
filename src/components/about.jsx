@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../images/pro.jpeg';
+import resume from '../assets/resume.pdf';
 
 const about = () => {
   return (
@@ -14,10 +15,11 @@ const about = () => {
                 <div className="column right">
                     <div className="text">I'm Ashish and I'm a <span className="typing-2"></span></div>
                     <p>Hy guys, I'm from Kalol, Gujarat. I'm currently 21 years old. I want to become a successful
-                        Engineer in life. Currently I'm pursuing my 6th semester of engineering in Vishwakarma
-                        Government Engineering College, Ahemdabad in Information and Technology branch. My hobbies are
-                        to listen songs, watching movies, especially coding.</p>
-                    <a href="https://drive.google.com/file/d/1prtalzcnAtkSrtq92TFPp8oUOVU_wkKC/view?usp=sharing" target="blank" >Download CV</a>
+                        Engineer in life. Currently I'm pursuing my 7th semester of engineering in Vishwakarma
+                        Government Engineering College, Ahemdabad in Information and Technology branch.</p>
+                    <a href={
+                  resume
+                    } target="blank" >Download CV</a>
                 </div>
             </div>
         </div>

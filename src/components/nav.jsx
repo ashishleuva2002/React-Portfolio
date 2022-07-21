@@ -1,7 +1,7 @@
 import React from "react";
 
 const nav = () => {
-  let navbar=[{h:"#home",n:"Home"},{h:"#about",n:"About"},{h:"#skills",n:"Skills"},{h:"#services",n:"Services"},{h:"#contact",n:"Contact"}]
+  let navbar=[{h:"#home",n:"Home"},{h:"#about",n:"About"},{h:"#services",n:"Services"},{h:"#skills",n:"Skills"},{h:"#contact",n:"Contact"}]
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark elegant-color-dark">

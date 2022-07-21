@@ -19,9 +19,10 @@ const skills = () => {
       alt: "Bootstarp",
     },
     {
-      id: "https://img.icons8.com/color/900/000000/nodejs.png",
-      alt: "Nodejs",
+      id: "https://img.icons8.com/windows/900/000000/mdb.png",
+      alt: "MDB",
     },
+   
     {
       id: "https://img.icons8.com/color/900/000000/react-native.png",
       alt: "ReactJS",
@@ -45,6 +46,9 @@ const skills = () => {
     {
       id: "https://img.icons8.com/color/900/000000/python.png",
       alt: "Python",
+    }, {
+      id: "https://img.icons8.com/color/900/000000/nodejs.png",
+      alt: "Nodejs",
     },
     {
       id: "https://img.icons8.com/color/900/000000/mongodb.png",
